@@ -1,3 +1,4 @@
+import {EfeitoDigitacao} from './Efects';
 import './Home.css'
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     
     <div className="home" id="home">
       <div className="home-content">
-        <h1>{nome}</h1>
+        <h1><EfeitoDigitacao texto={nome} /></h1>
         <p>Desenvolvedor Web Full Stack Jr</p>
         <div className="stack">
           <h6>Fastapi</h6>
