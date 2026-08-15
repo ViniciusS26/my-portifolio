@@ -1,0 +1,53 @@
+.home{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background);
+}
+.home-content{
+    font-family: Kode Mono, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text);
+    
+}
+.home h1{
+    font-size: 5rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.home p{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.stack{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+;
+}
+.stack h6{
+    margin: 10px auto;
+    padding: 10px;
+    font-weight: 200;
+    font-size: 0.8rem;
+
+    border: 1px solid var(--text);
+    border-radius: 10px;
+
+}
+
+
+
+
