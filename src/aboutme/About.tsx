@@ -22,13 +22,13 @@ export default function About() {
                         <div className="metrics">
                             <div className="contains-metrics">
                                 <p className="metric-value"><ModificaNumerosMetricas valorFinal={3} velocidade={100} />+</p>
-                                <p className="metric-label">Anos Estudando</p>
+                                <p className="metric-label">ANOS ESTUDANDO</p>
                             </div>
                         </div>
                         <div className="metrics">
                             <div className="contains-metrics">
                                 <p className="metric-value"><ModificaNumerosMetricas valorFinal={16} velocidade={100} />+</p>
-                                <p className="metric-label">Projetos no GitHub</p>
+                                <p className="metric-label">PROJETOS NO GITHUB</p>
                             </div>
                         </div>
                     </div>
@@ -38,13 +38,13 @@ export default function About() {
                         <div className="metrics">
                             <div className="contains-metrics">
                                 <p className="metric-value"><ModificaNumerosMetricas valorFinal={6} velocidade={100}/>+</p>
-                                <p className="metric-label">Projetos Relevantes</p>
+                                <p className="metric-label">PROJETOS RELEVANTES</p>
                             </div>
                         </div>
                         <div className="metrics">
                             <div className="contains-metrics">
                                 <p className="metric-value"><ModificaNumerosMetricas valorFinal={2} velocidade={100} /> ANOS+</p>
-                                <p className="metric-label">Experiência Profissional</p>
+                                <p className="metric-label">EXPERIÊNCIA PROFSSIONAL</p>
                             </div>
                         </div>
                     </div>
