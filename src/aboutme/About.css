@@ -86,6 +86,8 @@ h1{
     display: block;
     clear: both;
     box-shadow: 0px 0px 10px var(--border);
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 

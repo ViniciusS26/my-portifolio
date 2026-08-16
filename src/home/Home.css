@@ -18,15 +18,15 @@
     
 }
 .home h1{
-    font-size: 5rem;
+    font-size: 7rem;
     margin: 0 auto;
     padding: 0;
 }
 
 .home p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 300;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 0;
 }
 
@@ -38,14 +38,19 @@
 ;
 }
 .stack h6{
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 10px;
     font-weight: 200;
-    font-size: 0.8rem;
+    font-size: 1.0rem;
 
     border: 1px solid var(--text);
     border-radius: 10px;
 
+}
+
+.stack h6:hover{
+    box-shadow: 0px 0px 10px var(--border);
+    transition: 0.3s;
 }
 
 

@@ -8,13 +8,13 @@ export default function About() {
 
     return (
         <div className="about" id="about">
-            <h1>SOBRE MIM</h1>
+            <h1>UM POUCO SOBRE MIM</h1>
             <div className="about-content">
 
                 <div className="style-about">
                     <p>Sou um desenvolvedor web full stack Jr, com experiência em desenvolvimento de aplicações web utilizando tecnologias como ReactJS, FastAPI, Docker, Postgres e AWS.</p>
                     <p> Minha jornada no curso de Sistemas de Informação na Universidade Federal do Piauí, me ensinou muito sobre arquitetura de software e sobre o impacto que a tecnologia pode ter no mundo. Antes de migrar para o desenvolvimento, passei por mais de 2 anos em suporte técnico N2, o que moldou minha forma de pensar: analítica, estruturada e sempre com foco em resolver o problema na raiz.</p>
-                    <p>Hoje, meu objetivo é evoluir como engenheiro back-end, aprendendo continuamente e contribuindo com projetos que realmente façam diferença. </p>
+                    <p>Hoje, meu objetivo é evoluir como profissinalmente na área de tecnologia, aprendendo continuamente e contribuindo com projetos que realmente façam diferença. </p>
                 </div>
                 <div className="metrics-github">
 
