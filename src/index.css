@@ -20,7 +20,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 40px;
   padding: 0;
   background: var(--bg);
   font-family: Kode Mono, monospace;
