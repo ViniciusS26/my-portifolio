@@ -2,6 +2,7 @@
 import './App.css'
 import Header from './header/Header.tsx'
 import Home from './home/Home.tsx'
+import About from './aboutme/About.tsx'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <About />
     </>
   )
 }
