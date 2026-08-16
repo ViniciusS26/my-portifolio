@@ -19,3 +19,20 @@ export function EfeitoDigitacao({ texto, velocidade = 200 }) {
 
   return <span>{textoAtual}</span>;
 }
+
+export function ModificaNumerosMetricas({ valorFinal, velocidade = 100 }) {
+    "Cria um efeito de contagem para números, incrementando de 0 até o valor final especificado com base na velocidade fornecida."
+    const [valorAtual, setValorAtual] = useState(0);
+
+    useEffect(() => {
+        if (valorAtual < valorFinal) {
+            const timer = setTimeout(() => {
+                setValorAtual((prev) => prev + 1);
+            }, velocidade);
+
+            return () => clearTimeout(timer);
+        }
+    }, [valorAtual, valorFinal, velocidade]);
+
+    return <span>{valorAtual}</span>;
+}
