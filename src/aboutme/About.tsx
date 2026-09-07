@@ -1,8 +1,7 @@
 import './About.css'
 import {ModificaNumerosMetricas} from '../home/Efects';
 export default function About() {
-    /* Fazer com que os numeros de projetos sejam exibidos de forma mais atraente, indo de 0 até 
-    o valor de cada projeto */
+    
 
 
 
